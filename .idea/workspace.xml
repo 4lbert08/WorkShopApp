@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Classes and attributes created (First commit).">
+    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Attributes from Composite Aggregation added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Wfq8Px2nmTEPI6OmSJP7sPp7BR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,13 +38,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HOTFIX_customHotfixCommitMessage_text": "Tagging hotfix %name%",
+    "RELEASE_customTagCommitMessage_text": "Tagging version %name%",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/alber/IdeaProjects/AgendaApp",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alber/IdeaProjects/WorkshopApp",
     "onboarding.tips.debug.path": "C:/Users/alber/IdeaProjects/WorkshopApp/src/Main.java",
-    "settings.editor.selected.configurable": "gitflow.GitflowConfigurable"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697136781200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Attributes from Composite Aggregation added">
+      <option name="closed" value="true" />
+      <created>1697138000529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697138000529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,7 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes and attributes created (First commit)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes and attributes created (First commit)." />
+    <MESSAGE value="Attributes from Composite Aggregation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attributes from Composite Aggregation added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Attributes from Composite Aggregation added">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Constructor , getters and setters of Payment establish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
     </list>
+    <list id="b552a00a-1e0f-4fee-a567-dc1440920869" name="Changes by gorka" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +45,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alber/IdeaProjects/WorkshopApp",
+    "last_opened_file_path": "C:/Users/alber/IdeaProjects/AgendaApp",
     "onboarding.tips.debug.path": "C:/Users/alber/IdeaProjects/WorkshopApp/src/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -74,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697138000529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Constructor , getters and setters of Payment establish">
+      <option name="closed" value="true" />
+      <created>1697740944874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697740944874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,7 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes and attributes created (First commit)." />
     <MESSAGE value="Attributes from Composite Aggregation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attributes from Composite Aggregation added" />
+    <MESSAGE value="Constructor , getters and setters of Payment establish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor , getters and setters of Payment establish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

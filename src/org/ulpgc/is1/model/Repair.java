@@ -11,6 +11,65 @@ public class Repair {
     private Date date;
     private String description;
     private int effort;
-    private List<Payment> paymentList;
+    private Payment payment;
 
+
+    public Repair(int id, Date date, String description, int effort) {
+        this.id = id;
+        this.date = date;
+        this.description = description;
+        this.effort = effort;
+        this.payment = null;
+    }
+
+    public Repair(int id, Date date, String description, int effort, Payment payment) {
+        this.id = id;
+        this.date = date;
+        this.description = description;
+        this.effort = effort;
+        this.payment = payment;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public int getEffort() {
+        return effort;
+    }
+
+    public void setEffort(int effort) {
+        this.effort = effort;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public void setPaymentList(Payment payment) {
+        this.payment = payment;
+    }
+
+    public int price() {
+        if (payment == null) {
+            return 0;
+        }
+        return payment.getAmount();
+    }
 }

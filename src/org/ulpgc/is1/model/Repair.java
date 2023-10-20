@@ -11,10 +11,11 @@ public class Repair {
     private Date date;
     private String description;
     private int effort;
+    private List<BreakdownTypes> breakdownTypes;
     private Payment payment;
 
 
-    public Repair(int id, Date date, String description, int effort) {
+    public Repair(int id, Date date, String description, int effort, List<BreakdownTypes> breakdownTypes) {
         this.id = id;
         this.date = date;
         this.description = description;
@@ -22,7 +23,7 @@ public class Repair {
         this.payment = null;
     }
 
-    public Repair(int id, Date date, String description, int effort, Payment payment) {
+    public Repair(int id, Date date, String description, int effort, List<BreakdownTypes> breakdownTypes, Payment payment) {
         this.id = id;
         this.date = date;
         this.description = description;
@@ -56,6 +57,14 @@ public class Repair {
 
     public void setEffort(int effort) {
         this.effort = effort;
+    }
+
+    public List<BreakdownTypes> getBreakdownTypes() {
+        return breakdownTypes;
+    }
+
+    public void setBreakdownTypes(List<BreakdownTypes> breakdownTypes) {
+        this.breakdownTypes = breakdownTypes;
     }
 
     public Payment getPayment() {

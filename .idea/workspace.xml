@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Constructor , getters and setters of Payment establish">
+    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Class Item and Customer established.&#10;Constructor and methods establish in Repair.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workshop.iml" afterDir="false" />
+    </list>
+    <list id="b552a00a-1e0f-4fee-a567-dc1440920869" name="Changes by gorka" comment="">
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
     </list>
-    <list id="b552a00a-1e0f-4fee-a567-dc1440920869" name="Changes by gorka" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="14" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="16" end1="17" start2="17" end2="18" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="21" end1="21" start2="22" end2="23" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="24" end1="25" start2="26" end2="27" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="29" end1="29" start2="31" end2="32" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="47" end1="47" start2="50" end2="51" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="60" end1="60" start2="64" end2="72" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="4" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="5" end1="5" start2="7" end2="27" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,8 +63,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "HOTFIX_customHotfixCommitMessage_text": "Tagging hotfix %name%",
     "RELEASE_customTagCommitMessage_text": "Tagging version %name%",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,15 +112,65 @@
       <option name="project" value="LOCAL" />
       <updated>1697740944874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class Item and Customer established.&#10;Constructor and methods establish in Repair.">
+      <option name="closed" value="true" />
+      <created>1697744798061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697744798061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -103,7 +180,8 @@
     <MESSAGE value="Classes and attributes created (First commit)." />
     <MESSAGE value="Attributes from Composite Aggregation added" />
     <MESSAGE value="Constructor , getters and setters of Payment establish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor , getters and setters of Payment establish" />
+    <MESSAGE value="Class Item and Customer established.&#10;Constructor and methods establish in Repair." />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Item and Customer established.&#10;Constructor and methods establish in Repair." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

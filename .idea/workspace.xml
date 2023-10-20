@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Class Item and Customer established.&#10;Constructor and methods establish in Repair.">
+    <list default="true" id="209f104a-0ab4-4ca4-9009-656eab17b41b" name="Changes" comment="Classes Phone and Plate establish with isValid method. Corrected mistakes in Repair">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Mechanic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Vehicle.java" afterDir="false" />
     </list>
-    <list id="b552a00a-1e0f-4fee-a567-dc1440920869" name="Changes by gorka" comment="">
+    <list id="b552a00a-1e0f-4fee-a567-dc1440920869" name="Changes by gorka" comment="Classes Phone and Plate establish with isValid method. Mistakes in Repair corrected">
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Mechanic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/SparePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/SparePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +40,58 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java">
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Item.java">
       <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
-        <range start1="16" end1="17" start2="17" end2="18" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
-        <range start1="21" end1="21" start2="22" end2="23" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
-        <range start1="24" end1="25" start2="26" end2="27" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
-        <range start1="29" end1="29" start2="31" end2="32" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
-        <range start1="47" end1="47" start2="50" end2="51" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
-        <range start1="60" end1="60" start2="64" end2="72" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="4" end1="6" start2="4" end2="5" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="8" end1="11" start2="7" end2="9" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="21" end1="21" start2="19" end2="21" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="22" end1="23" start2="22" end2="22" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Plate.java">
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Repair.java">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
-        <range start1="5" end1="5" start2="7" end2="27" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="13" end1="13" start2="13" end2="15" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="14" end1="14" start2="16" end2="17" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="17" end1="18" start2="20" end2="21" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="22" end1="23" start2="25" end2="29" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="26" end1="34" start2="32" end2="32" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="64" end1="64" start2="62" end2="78" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="72" end1="72" start2="86" end2="94" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="80" end1="80" start2="102" end2="119" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="81" end1="83" start2="120" end2="124" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="84" end1="85" start2="125" end2="126" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="86" end1="86" start2="127" end2="149" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Vehicle.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="3" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="7" end1="7" start2="9" end2="39" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="8" end1="8" start2="40" end2="73" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="10" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+        <range start1="6" end1="6" start2="14" end2="22" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="8" end1="8" start2="24" end2="32" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/Mechanic.java">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="3" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="6" end1="6" start2="7" end2="8" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="7" end1="7" start2="9" end2="18" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="8" end1="8" start2="19" end2="53" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/org/ulpgc/is1/model/RepairManager.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="4" end1="4" start2="7" end2="8" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="10" end1="10" start2="14" end2="35" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="11" end1="11" start2="36" end2="97" changelist="b552a00a-1e0f-4fee-a567-dc1440920869" />
+        <range start1="12" end1="12" start2="98" end2="99" changelist="209f104a-0ab4-4ca4-9009-656eab17b41b" />
       </ranges>
     </file>
   </component>
@@ -120,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697744798061</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Classes Phone and Plate establish with isValid method. Corrected mistakes in Repair">
+      <option name="closed" value="true" />
+      <created>1697793182385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697793182386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Classes Phone and Plate establish with isValid method. Mistakes in Repair corrected">
+      <option name="closed" value="true" />
+      <created>1697793315145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697793315145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,14 +242,17 @@
     <MESSAGE value="Attributes from Composite Aggregation added" />
     <MESSAGE value="Constructor , getters and setters of Payment establish" />
     <MESSAGE value="Class Item and Customer established.&#10;Constructor and methods establish in Repair." />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Item and Customer established.&#10;Constructor and methods establish in Repair." />
+    <MESSAGE value="Classes Phone and Plate establish with isValid method. Corrected mistakes in Repair" />
+    <MESSAGE value="Changes by gorka" />
+    <MESSAGE value="Classes Phone and Plate establish with isValid method. Mistakes in Repair corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes Phone and Plate establish with isValid method. Mistakes in Repair corrected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java</url>
-          <line>4</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

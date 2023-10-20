@@ -10,3 +10,4 @@ public class RepairManager {
     private List<Vehicle> vehicleList;
 
 }
+

@@ -11,7 +11,10 @@ public class Repair {
     private Date date;
     private String description;
     private int effort;
+    private List<Mechanic> mechanicList;
+    private Vehicle vehicle;
     private List<BreakdownTypes> breakdownTypes;
+    private List<Item> itemsList;
     private Payment payment;
 
 
@@ -24,14 +27,6 @@ public class Repair {
         this.payment = null;
     }
 
-    public Repair(int id, Date date, String description, int effort, List<BreakdownTypes> breakdownTypes, Payment payment) {
-        this.id = id;
-        this.date = date;
-        this.description = description;
-        this.effort = effort;
-        this.breakdownTypes =new ArrayList<>(breakdownTypes);
-        this.payment = payment;
-    }
 
     public int getId() {
         return id;
@@ -62,12 +57,36 @@ public class Repair {
         this.effort = effort;
     }
 
+    public List<Mechanic> getMechanicList() {
+        return mechanicList;
+    }
+
+    public void setMechanicList(List<Mechanic> mechanicList) {
+        this.mechanicList = mechanicList;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
     public List<BreakdownTypes> getBreakdownTypes() {
         return breakdownTypes;
     }
 
     public void setBreakdownTypes(List<BreakdownTypes> breakdownTypes) {
         this.breakdownTypes = breakdownTypes;
+    }
+
+    public List<Item> getItemsList() {
+        return itemsList;
+    }
+
+    public void setItemsList(List<Item> itemsList) {
+        this.itemsList = itemsList;
     }
 
     public Payment getPayment() {
@@ -78,9 +97,28 @@ public class Repair {
         this.payment = payment;
     }
 
+    public void addMechanic(Mechanic mechanic) {
+        if(!mechanicList.contains(mechanic)) mechanicList.add(mechanic);
+    }
+
+    public void addItem(SparePart sparePart, int amount){
+        Item item = new Item(sparePart, amount);
+        itemsList.add(item);
+    }
+
+    public void addBreakdownTypes(BreakdownTypes breakdownTypes1){
+        if(!breakdownTypes.contains(breakdownTypes1)) breakdownTypes.add(breakdownTypes1);
+    }
+
+    public void pay(Payment payment){
+        this.payment = payment;
+    }
+
     public int price() {
-        if (payment == null) {
-            return 0;
+        int total = 0;
+        for (Item item: itemsList) {
+            SparePart sparePart = item.getSparepart();
+            total += item.getQuantity() * sparePart.getPrice();
         }
         return payment.getAmount();
     }

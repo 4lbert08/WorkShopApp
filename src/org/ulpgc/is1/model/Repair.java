@@ -20,6 +20,7 @@ public class Repair {
         this.date = date;
         this.description = description;
         this.effort = effort;
+        this.breakdownTypes = new ArrayList<>(breakdownTypes);
         this.payment = null;
     }
 
@@ -28,6 +29,7 @@ public class Repair {
         this.date = date;
         this.description = description;
         this.effort = effort;
+        this.breakdownTypes =new ArrayList<>(breakdownTypes);
         this.payment = payment;
     }
 
@@ -46,6 +48,7 @@ public class Repair {
     public String getDescription() {
         return description;
     }
+
 
     public void setDescription(String description) {
         this.description = description;
